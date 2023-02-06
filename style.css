@@ -1,0 +1,85 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin:0px;
+  background-color: #1d292f;
+}
+#wholecontainer{
+  margin:15% auto;
+/*   border:1px solid white; */
+  height:640px;
+  width:390px;
+}
+#innerfirst{
+  display:flex;
+  justify-content:space-between;
+  padding:9.5%;
+}
+.logo{
+  width:100px;
+}
+#turntext{
+  color:white;
+  font-size:35px;
+}
+#innerbutton{
+  border:none;
+  border-radius:8px;
+  height:45px;
+  width:45px;
+  text-align:center;
+}
+#innersecond{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-around;
+  width:335px;
+  margin:auto;
+  height:390px;
+}
+.child{
+  height:80px;
+  width:80px;
+  border-radius:10px;
+  border:2px solid #1f3641;
+  margin:10px auto;
+  background-color:#1f3641;
+  box-shadow: 0px 5px 5px #10212a;
+}
+.childhoverimg{
+  margin:10%;
+}
+#botto{
+  display:flex;
+  justify-content:space-between;
+  padding-right:7.5%;
+  padding-left:7.5%;
+}
+.bottochil{
+  height:70px;
+  width:100px;
+  border:2px solid #1d292f;
+  border-radius:10px;
+  text-align:center;
+}
+#botchild0{
+  background-color:#32c3bd;
+}
+#botchild1{
+  background-color:#a8c0c9;
+}
+#botchild2{
+  background-color:#f2b137;
+}
+.scoreboard{
+  margin-top:-20px;
+}
+#newgame{
+  height:70px;
+  width:220px;
+   border:2px solid white;
+  background-color:white;
+   margin:15px auto;
+  border-radius:10px;
+  text-align:center;
+}

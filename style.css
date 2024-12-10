@@ -5,8 +5,7 @@ html, body {
   background-color: #1d292f;
 }
 #wholecontainer{
-  margin:15% auto;
-/*   border:1px solid white; */
+  margin:2% auto;
   height:640px;
   width:390px;
 }

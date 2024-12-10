@@ -29,12 +29,11 @@ html, body {
   text-align:center;
 }
 #innersecond{
-  display:flex;
-  flex-wrap:wrap;
-  justify-content:space-around;
-  width:335px;
-  margin:auto;
-  height:390px;
+  display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 335px;
+    margin: 5% auto;
+    grid-gap: 10px;
 }
 .child{
   height:80px;
